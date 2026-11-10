@@ -1,0 +1,25 @@
+{
+  "name": "taxpal-root",
+  "version": "1.0.0",
+  "description": "TaxPal - Full Stack Personal Finance & Tax Management Platform for Freelancers",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "test:backend": "cd backend && node test-api.js",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "tax-estimator",
+    "personal-finance",
+    "freelancer",
+    "finance-tracker",
+    "pdfkit",
+    "recharts"
+  ],
+  "author": "TaxPal Engineering",
+  "license": "MIT"
+}
+
